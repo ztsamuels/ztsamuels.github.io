@@ -1,0 +1,80 @@
+/* different background image depending on page */
+.home {
+    background-image: url("https://i.ibb.co/R2xDQ2k/i-know-pain.png");
+    background-repeat: no-repeat;
+    background-color: #4D5B34;
+}
+.about {
+    background-image: url("https://i.ibb.co/nks63D6/the-cat-COMP.png");
+    background-repeat: no-repeat;
+    background-color: #4D5B34;
+}
+.projects {
+    background-image: url("https://i.ibb.co/0hVbgnW/youre-going-to-lead-it-flipped.jpg");
+    background-repeat: no-repeat;
+    background-color: #4D5B34;
+}
+body {
+
+    font-family: 'Gochi Hand', cursive;
+
+}
+p {
+    color: #D6C068;
+    font-size: 20px;
+}
+/* index */
+.title {
+    margin-top: 195px;
+    margin-bottom: 195px;
+    text-align: center;
+}
+    .name {
+        width: 200px;
+        max-height: 305px;
+    }
+
+    .link{
+        font-size: 30px;
+        text-decoration: none;
+        padding-right: 2%;
+    }
+        a:link {
+            color: #D6C068;
+        }   
+        a:visited{
+            color: #D6C068;
+        }
+        a:hover {
+            color: #F0D775;
+        }
+        a:active {
+            color: #D6C068;
+        }
+
+/* about */
+.title-about {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: left;        
+}
+#about-words {
+    padding-right: 20%; 
+}
+
+/* projects */
+
+
+/* image overlay stuff */
+.container {
+    position: relative;
+    width: 22.5%;
+}
+.projects-pic {
+    width: 270px;
+    height: 200px;
+    display: block;
+}
+td {
+    width: 300px;
+}
