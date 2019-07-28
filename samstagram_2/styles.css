@@ -1,0 +1,125 @@
+body {
+    background: #002B2D;
+    margin: 0px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.header {
+    background: #021719;
+    color: #D9DBF1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 2%;
+    text-align: center;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 50px;
+}
+
+.upperlink {
+    float: right;
+    padding-right: 2%;
+    color: #D9DBF1;
+}
+
+#chatbox {
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+#trending {
+    float: right;
+    text-align: center;
+    padding-right: 20%;
+}
+    #hashtags {
+        float: right;
+        text-align: center;
+        font-size:19px;
+        padding-right: 20%;
+    }
+        #hashtags a:link {
+            text-decoration: none;
+            color: #021719;
+        }   
+        #hashtags a:visited {
+            color: #021719;
+        }
+        #hashtags a:hover {
+            color: #D9DBF1;
+        }
+
+.section {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+#pfp {
+    max-height: 100%;
+    max-width: 100%;
+}
+#newsfeed {
+    float: right;
+    font-size: 20px15px;
+}
+
+/* index */
+#container {
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 2%;
+    background-color: #002B2D;
+}
+    .post {
+        color: white;
+        font-size: 10px;
+        width: 250px;
+        height: 250px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: white;
+        display: inline-block;
+        margin: 20px 20px 20px 20px;
+        overflow-y: scroll;
+        overflow-x: inherit;
+    }
+        .image {
+            max-height: 100%;
+            max-width: 100%;
+            padding-left: 0.5%;
+            padding-right: 2%;
+        }
+        .caption {
+            color: black;
+            font-size: 15px; 
+        }
+        .x {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 25px;
+            margin: 0px;
+            float: right;
+            cursor: pointer;
+        }
+#trending {
+    float: right;
+}
+
+#form2 {
+    width: 200px;
+}
+
+#form2 input[type=text] {
+    width: 500px;
+}
