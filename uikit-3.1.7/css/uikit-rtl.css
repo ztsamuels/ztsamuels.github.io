@@ -10,9 +10,10 @@
  */
 html {
   /* 1 */
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
+  font-family: 'Gochi Hand', cursive;
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 3 */
@@ -25,7 +26,7 @@ html {
     background-color: #4D5B34;
 }
 .about {
-    background-image: url("https://i.ibb.co/nks63D6/the-cat-COMP.png");
+    /* background-image: url("https://i.ibb.co/nks63D6/the-cat-COMP.png"); */
     background-repeat: no-repeat;
     background-color: #4D5B34;
 }
@@ -51,7 +52,33 @@ html {
  */
 body {
   margin: 0;
+  color: #D6C068;
 }
+
+#about-words {
+    padding-left: 6%;
+    padding-top: 5%;
+    font-size: 1.35rem;
+    display: inline-block;
+    width: 600px;
+    height: 400px;
+}
+
+#picSection {
+  padding-top: 4%;
+  padding-right: 10%;
+  display: inline-block;
+  float: right;
+}
+  #myPic {
+    height: 350px;
+    width: 350px;
+    border: 5px solid white;
+    border-radius: 50%;
+  }
+
+
+
 /* Links
  ========================================================================== */
 /*
@@ -4067,7 +4094,7 @@ ul.uk-nav-sub {
   min-height: 80px;
   padding: 0 15px;
   /* 3 */
-  font-size: 1.563rem;
+  font-size: 1.875rem;
   font-family: 'Gochi Hand', cursive;
   /* 4 */
   text-decoration: none;
