@@ -80,7 +80,14 @@ body {
     border: 5px solid white;
     border-radius: 50%;
   }
-
+  .projects-pic {
+      width: 300px;
+      height: 150px;
+      display: block;
+  }
+  td {
+      width: 350px;
+  }
 
 
 /* Links
