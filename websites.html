@@ -3,76 +3,48 @@
 <head>
   <!-- this is a huge test to see if git is working -->
   <title>websites</title>
-  <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="..\uikit-3.1.7\css\uikit-rtl.css" />
 </head>
 <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
   <div class="uk-navbar-left">
-    <a href="" class="uk-navbar-item uk-logo"><img class="name" style="padding-top: 5%;" src="https://i.ibb.co/vkyxvny/edits.png"></a>
+    <a href="" class="uk-navbar-item uk-logo"><img class="name" style="padding-top: 5%;" src="https://i.ibb.co/9rFsc0f/websites.png"></a>
     <ul class="uk-navbar-nav">
       <li class="uk-parent"><a class="link" href="https://ztsamuels.github.io/">home</a></li>
       <li class="uk-parent"><a class="link" href="https://ztsamuels.github.io/about">about</a></li>
       <li class="uk-parent"><a class="link" href="https://ztsamuels.github.io/edits">edits</a></li>
       <li class="uk-active"><a class="link" href="https://ztsamuels.github.io/websites">websites</a></li>
-      <!--<li class="uk-parent"><a class="link" href="https://ztsamuels.github.io/writing">writing</a></li>-->
     </ul>
   </div>
 </nav>
 <body class="websites">
 <!-- image stuff-->
-           <table>
-               <tr>
-                   <td>
-                        <a class="project-link" href="/TODO_starter/index.html" target="_blank">
-                            <img class="projects-pic" src="https://i.ibb.co/frmN0tR/Screenshot-5.png">
-                        </a>
-                   </td>
-                   <td>
-                        <span style="color: #D6C068">a to-do list that allows you to create a post-it note with your task on it, stick it on the page,
-                        and delete with a single click.</span>
-                    </td>
-                    <td>
-                        <a class="project-link" href="/resume/index.html" target="_blank">
-                            <img class="projects-pic" src="https://i.ibb.co/LZL9RpN/Screenshot-9.png">
-                        </a>
-                    </td>
-                    <td>
-                        <span style="color: #D6C068">the first html project i made: a resume for andrew carnegie.</span>
-                    </td>
-               </tr>
-               <tr>
-                    <td>
-                        <a class="project-link" href="/samstagram_2/index.html" target="_blank">
-                            <img class="projects-pic" src="https://i.ibb.co/K5bS2Y8/Screenshot-7.png">
-                        </a>
-                    </td>
-                    <td>
-                        <span style="color: #D6C068">a sams version of instagram that lets you change the profile details and create posts</span>
-                    </td>
-                    <td>
-                        <a class="project-link" href="/moodboard/index.html" target="_blank">
-                            <img class="projects-pic" src="https://i.ibb.co/zNMKyMN/Screenshot-10.png">
-                        </a>
-                    </td>
-                    <td>
-                        <span style="color: #D6C068">a moodboard that allows you to insert an image link and it pastes into the page</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a class="project-link" href="/typing_game/index.html" target="_blank">
-                            <img class="projects-pic" src="https://i.ibb.co/FmwhDKy/Screenshot-12.png">
-                        </a>
-                    </td>
-                    <td>
-                        <span style="color: #D6C068"> an in-browser typing game. when you type the word it dissapears off the screen</span>
-                    </td>
-                </tr>
-           </table>
+<div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+    <div>
+        <div class="uk-card uk-card-hover uk-card-body">
+            <h3 class="uk-card-title">To-do list</h3>
+            <p>Create post-its with your tasks on them, and the click them to knock them off. If you need to take a break, feel free to close the browser, you're notes will save!</p>
+            <button class="uk-button uk-button-default"><a href="/TODO_starter/index.html"target="_blank">link</a></button>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-hover uk-card-body">
+            <h3 class="uk-card-title">SAMS-tagram</h3>
+            <p>A faux-Instagram for the summer program SAMS. You can create posts with an image and text, and edit yuor profile. Both of these can save until you get back!</p>
+            <button class="uk-button uk-button-default"><a href="/samstagram_2/index.html"target="_blank">link</a></button>
+        </div>
+    </div>
+    <div>
+    <div class="uk-card uk-card-hover uk-card-body">
+            <h3 class="uk-card-title">Typing Game</h3>
+            <p>Type the words that pop up on the screen and earn points!</p>
+            <button class="uk-button uk-button-default"><a href="/typing_game/index.html"target="_blank">link</a></button>
+    </div>
+  </div>
+</div>
 <!-- end image stuff-->
         </div>
-
     </body>
 </html>

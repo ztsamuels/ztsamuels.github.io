@@ -13,7 +13,7 @@ html {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  font-family: 'Gochi Hand', cursive;
+  font-family: 'Karla', sans-serif;
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 3 */
@@ -21,22 +21,22 @@ html {
 
 /* different background image depending on page */
 .home {
-    background-image: url("https://i.ibb.co/R2xDQ2k/i-know-pain.png");
+    background-image: url("https://i.ibb.co/2cz4fFw/i-know-pain.png");
     background-repeat: no-repeat;
-    background-color: #4D5B34;
+    background-color: #white;
 }
 .about {
     background-repeat: no-repeat;
-    background-color: #4D5B34;
+    background-color: white;
 }
 .websites {
-    background-image: url("https://i.ibb.co/mh7kqVX/youre-going-to-lead-it-flipped.jpg");
+    background-image: url("https://i.ibb.co/qgfmV10/youre-going-to-lead-it-flipped.jpg");
     background-repeat: repeat;
-    background-color: #4D5B34;
+    background-color: #white;
 }
 .edits {
   background-repeat: no-repeat;
-  background-color: #4D5B34;
+  background-color: #white;
 }
 
 
@@ -56,16 +56,17 @@ html {
  */
 body {
   margin: 0;
-  color: #D6C068;
+  color: black;
 }
 
 #about-words {
     padding-left: 6%;
     padding-top: 5%;
-    font-size: 1.375rem;
+    font-size: 1.2rem;
     display: inline-block;
     width: 600px;
     height: 400px;
+    color: black;
 }
 
 #picSection {
@@ -106,7 +107,7 @@ a:link {
  */
 a,
 .uk-link {
-  color: #D6C068;
+  color: black;
   text-decoration: none;
   cursor: pointer;
 }
@@ -114,7 +115,7 @@ a:hover,
 .uk-link:hover,
 .uk-link-toggle:hover .uk-link,
 .uk-link-toggle:focus .uk-link {
-  color: #F0D775;
+  color: gray;
   text-decoration: underline;
 }
 /* Text-level semantics
@@ -310,9 +311,8 @@ h6,
 .uk-heading-xlarge,
 .uk-heading-2xlarge {
   margin: 0 0 20px 0;
-  font-family: 'Gochi Hand', cursive; /* COMICNAME */
-  font-weight: normal;
-  color: #F2DE8E;
+  font-family: 'Karla', sans-serif; /* COMICNAME */
+  color: black;
   text-transform: none;
 }
 /* Add margin if adjacent element */
@@ -3229,18 +3229,19 @@ select.uk-form-width-xsmall {
  */
 .uk-totop {
   padding: 5px;
+  height: 50%;
   color: #999;
   transition: color 0.1s ease-in-out;
 }
 /* Hover + Focus */
 .uk-totop:hover,
 .uk-totop:focus {
-  color: #666;
+  color: black;
   outline: none;
 }
 /* OnClick */
 .uk-totop:active {
-  color: #333;
+  color: black;
 }
 /* ========================================================================
    Component: Marker
@@ -4106,7 +4107,7 @@ ul.uk-nav-sub {
   padding: 0 15px;
   /* 3 */
   font-size: 1.875rem;
-  font-family: 'Gochi Hand', cursive;
+  font-family: 'Karla', sans-serif;
   /* 4 */
   text-decoration: none;
 }
@@ -4114,7 +4115,7 @@ ul.uk-nav-sub {
  * Nav items
  */
 .uk-navbar-nav > li > a {
-  color: #D6C068;
+  color: gray;
   transition: 0.1s ease-in-out;
   transition-property: color, background-color;
 }
@@ -4125,16 +4126,16 @@ ul.uk-nav-sub {
 .uk-navbar-nav > li:hover > a,
 .uk-navbar-nav > li > a:focus,
 .uk-navbar-nav > li > a.uk-open {
-  color: #F2DE8E;
+  color: black;
   outline: none;
 }
 /* OnClick */
 .uk-navbar-nav > li > a:active {
-  color: #F2DE8E;
+  color: black;
 }
 /* Active */
 .uk-navbar-nav > li.uk-active > a {
-  color: #F2DE8E;
+  color: black;
 }
 /* Item
  ========================================================================== */
@@ -4778,25 +4779,25 @@ ul.uk-nav-sub {
   text-indent: 100%;
   overflow: hidden;
   white-space: nowrap;
-  border: 1px solid #D6C068;
+  border: 1px solid black;
   transition: 0.2s ease-in-out;
   transition-property: background-color, border-color;
 }
 /* Hover + Focus */
 .uk-dotnav > * > :hover,
 .uk-dotnav > * > :focus {
-  background-color: #F2DE8E;
+  background-color: gray;
   outline: none;
   border-color: transparent;
 }
 /* OnClick */
 .uk-dotnav > * > :active {
-  background-color: #F2DE8E;
+  background-color: gray;
   border-color: transparent;
 }
 /* Active */
 .uk-dotnav > .uk-active > * {
-  background-color: #F2DE8E;
+  background-color: black;
   border-color: transparent;
 }
 /* Modifier: 'uk-dotnav-vertical'
@@ -12025,7 +12026,7 @@ iframe.uk-cover {
 .uk-overlay-primary .uk-dotnav > * > *,
 .uk-offcanvas-bar .uk-dotnav > * > * {
   background-color: transparent;
-  border-color: #D6C068;
+  border-color: black;
 }
 .uk-light .uk-dotnav > * > :hover,
 .uk-light .uk-dotnav > * > :focus,
@@ -12049,7 +12050,7 @@ iframe.uk-cover {
 .uk-overlay-primary .uk-dotnav > * > :focus,
 .uk-offcanvas-bar .uk-dotnav > * > :hover,
 .uk-offcanvas-bar .uk-dotnav > * > :focus {
-  background-color: #F2DE8E;
+  background-color: black;
   border-color: transparent;
 }
 .uk-light .uk-dotnav > * > :active,
@@ -12063,7 +12064,7 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-dotnav > * > :active,
 .uk-overlay-primary .uk-dotnav > * > :active,
 .uk-offcanvas-bar .uk-dotnav > * > :active {
-  background-color: #F2DE8E;
+  background-color: black;
   border-color: transparent;
 }
 .uk-light .uk-dotnav > .uk-active > *,
@@ -12077,7 +12078,7 @@ iframe.uk-cover {
 .uk-card-secondary > :not([class*='uk-card-media']) .uk-dotnav > .uk-active > *,
 .uk-overlay-primary .uk-dotnav > .uk-active > *,
 .uk-offcanvas-bar .uk-dotnav > .uk-active > * {
-  background-color: #F2DE8E;
+  background-color: black;
   border-color: transparent;
 }
 .uk-light .uk-accordion-title,

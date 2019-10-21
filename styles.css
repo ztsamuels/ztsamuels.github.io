@@ -16,7 +16,7 @@
 }
 body {
 
-    font-family: 'Gochi Hand', cursive;
+    font-family: 'Karla', sans-serif;
 
 }
 p {
@@ -41,7 +41,7 @@ p {
     }
         a:link {
             color: #D6C068;
-        }   
+        }
         a:visited{
             color: #D6C068;
         }
@@ -56,10 +56,10 @@ p {
 .title-about {
     margin-top: 150px;
     margin-bottom: 150px;
-    text-align: left;        
+    text-align: left;
 }
 #about-words {
-    padding-right: 20%; 
+    padding-right: 20%;
 }
 
 /* projects */
