@@ -21,10 +21,15 @@ html {
 
 /* different background image depending on page */
 .home {
-    background-image: url("https://i.ibb.co/2cz4fFw/i-know-pain.png");
+    background-image: url("https://i.ibb.co/gv9J9QY/i-know-pain-1.png");
+    background-size: auto;
     background-repeat: no-repeat;
-    background-color: #white;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: white;
 }
+
 .about {
     background-repeat: no-repeat;
     background-color: white;
@@ -43,12 +48,23 @@ html {
 /* index */
 .title {
     margin-top: 20%;
+    margin-left: 5%;
     margin-bottom: 10%;
     text-align: center;
+    /* border: 1px solid red; */
 }
-    .name {
-        width: 200px;
-        max-height: 305px;
+    .batpic {
+        /* border: 1px solid black; */
+        float: left;
+    }
+    .bat {
+      max-width: 100%;
+      min-height: 100vh;
+}
+    #zoe {
+        font-size: 50px;
+        font-family:'Karla', sans-serif;
+        color: black;
     }
 
 /*
@@ -222,15 +238,15 @@ video {
  * 2. Auto-scale the height. Only needed if `height` attribute is present.
  * 3. Corrects responsive `max-width` behavior if padding and border are used.
  * 4. Exclude SVGs for IE11 because they don't preserve their aspect ratio.
- */
+
 canvas,
-img,
+/* img,
 video {
-  /* 1 */
+  /* 1
   max-width: 100%;
-  /* 2 */
+  /* 2
   height: auto;
-  /* 3 */
+  /* 3
   box-sizing: border-box;
 }
 /* 4 */
@@ -278,7 +294,7 @@ pre,
 address,
 fieldset,
 figure {
-  margin: 0 0 20px 0;
+  margin: 0 0 0px 0;
 }
 /* Add margin if adjacent element */
 * + p,
