@@ -29,9 +29,8 @@ p {
     margin-bottom: 195px;
     text-align: center;
 }
-    .name {
-        width: 200px;
-        max-height: 305px;
+    #name {
+        font-size: 20px;
     }
 
     .link{
