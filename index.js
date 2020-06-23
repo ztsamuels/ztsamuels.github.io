@@ -2,7 +2,7 @@
 console.log("java ready");
 var i=0;
 var txt = 'zoe samuels'; // the text being typed
-var speed = 175; // speed of typing
+var speed = 180; // speed of typing
 
 function typewriter() {
   if (i < txt.length) {
