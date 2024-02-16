@@ -1,23 +1,5 @@
-/* different background image depending on page */
-.home {
-    background-image: url("https://i.ibb.co/R2xDQ2k/i-know-pain.png");
-    background-repeat: no-repeat;
-    background-color: #4D5B34;
-}
-.about {
-    background-image: url("https://i.ibb.co/nks63D6/the-cat-COMP.png");
-    background-repeat: no-repeat;
-    background-color: #4D5B34;
-}
-.projects {
-    background-image: url("https://i.ibb.co/mh7kqVX/youre-going-to-lead-it-flipped.jpg");
-    background-repeat: repeat;
-    background-color: #4D5B34;
-}
 body {
-
     font-family: 'Karla', sans-serif;
-
 }
 p {
     color: #D6C068;
@@ -39,7 +21,7 @@ p {
         padding-right: 2%;
     }
         a:link {
-            color: #D6C068;
+            color: green;
         }
         a:visited{
             color: #D6C068;
@@ -76,12 +58,4 @@ p {
 }
 td {
     width: 350px;
-}
-
-/* comics edits */
-.comic-pics {
-    width: 375px;
-    height: 150px;
-    padding-right: 2%;
-    padding-left: 2%;
 }
