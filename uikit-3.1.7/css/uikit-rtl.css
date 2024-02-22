@@ -1,4 +1,4 @@
-/*! UIkit 3.1.7 | http://www.getuikit.com | (c) 2014 - 2019 YOOtheme | MIT License */
+/* UIkit 3.1.7 | http://www.getuikit.com | (c) 2014 - 2019 YOOtheme | MIT License */
 /* ========================================================================
    Component: Base
  ========================================================================== */
@@ -19,14 +19,7 @@ html {
   /* 3 */
 }
 
-/* different background image depending on page */
 .home {
-    background-image: url("https://i.ibb.co/gv9J9QY/i-know-pain-1.png");
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
     background-color: white;
 }
 
@@ -34,36 +27,13 @@ html {
     background-repeat: no-repeat;
     background-color: white;
 }
-.websites {
-    background-image: url("https://i.ibb.co/qgfmV10/youre-going-to-lead-it-flipped.jpg");
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: white;
-}
-.edits {
-  background-repeat: no-repeat;
-  background-color: #white;
-}
-
 
 /* index */
 .title {
-    margin-top: 20%;
-    margin-left: 5%;
+    margin-top: 15%;
     margin-bottom: 10%;
     text-align: center;
     /* border: 1px solid red; */
-}
-    .batpic {
-        /* border: 1px solid black; */
-        float: left;
-    }
-    .bat {
-      max-width: 100%;
-      min-height: 100vh;
 }
     #zoe {
         font-size: 50px;
